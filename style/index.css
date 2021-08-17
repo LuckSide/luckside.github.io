@@ -9,10 +9,18 @@ body {
   color: white;
 }
 
-#home {
+.home {
   max-width: 1204px;
   margin: auto;
   margin-top: 20px;
+  display: flex;
+  
+}
+.hom {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
 }
 #image-img {
   height: 549px;
@@ -45,7 +53,7 @@ body {
   margin-bottom: 20px;
 }
 #img-profile_img {
-  box-shadow: 9px 7px 5px rgba(255, 139, 74, 0.62);
+  box-shadow: 9px 7px 0px rgba(255, 139, 74, 0.62);
 }
 #profile-title {
   text-align: center;
@@ -108,3 +116,4 @@ body {
   border: none;
   background: none;
 }
+
