@@ -1,13 +1,102 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
   text-decoration: none;
-} */
+}
 
 body {
-  background-color: #222222;
+  background-color: rgba(114, 112, 114, 0.333);
+  color: white;
 }
 
-h1 {
-  color: #f5f5f5;
+#home {
+  width: 1500px;
+  max-width: 1024px;
+  margin: auto;
+  margin-top: 20px;
 }
+#image {
+  position: relative;
+  border-width: 2px;
+  width: 58%;
+  height: 200px;
+  left: 10px;
+  border: 1px solid white;
+  float: left;
+}
+#profile {
+  position: relative;
+  border-width: 2px;
+  width: 40%;
+  float: left;
+  border-radius: 15px;
+  background-color: #3f3f3f;
+  height: 550px;
+}
+#img-profile {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 20px;
+}
+#img-profile_img {
+  box-shadow: 9px 7px 5px rgba(255, 139, 74, 0.62);
+}
+#profile-title {
+  text-align: center;
+  font-family: Archivo Black;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 38.2668px;
+  line-height: 42px;
+
+  color: #f9f9f9;
+}
+#profile-subtitle {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36.7789px;
+  line-height: 42px;
+  text-align: center;
+  color: #f9f9f9;
+}
+#profile-Email {
+  margin-top: 20px;
+  font-family: Barlow Condensed;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ededed;
+  text-align: center;
+}
+#profileButtonsSociais {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#profileButtonArrow {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 20px;
+}
+.bnt-page-profile {
+  width: 180px;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+}
+#PProfileButtonArrow {
+  border: none;
+  background: none;
+}
+
