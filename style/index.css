@@ -14,7 +14,6 @@ body {
   margin: auto;
   margin-top: 20px;
   display: flex;
-  
 }
 .hom {
   max-width: 800px;
@@ -116,4 +115,23 @@ body {
   border: none;
   background: none;
 }
+
+#Title-works {
+  background-color: rgba(255, 129, 58, 0.67);
+  height: 55px;
+  width: 350px;
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+  position: relative;
+}
+
+footer {
+  display: block;
+  background-image: url(../image/unknown\ \(1\).png);
+}
+
+
+
+
 
