@@ -10,7 +10,6 @@ body {
 }
 
 #home {
-  width: 1500px;
   max-width: 1204px;
   margin: auto;
   margin-top: 20px;
@@ -84,7 +83,6 @@ body {
   align-items: center;
   margin-top: 30px;
   margin-bottom: 20px;
-  
 }
 #profileButtonArrow {
   display: flex;
